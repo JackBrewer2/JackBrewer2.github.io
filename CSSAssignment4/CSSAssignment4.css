@@ -1,0 +1,50 @@
+body  {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  background color: #eddee0;
+}
+
+
+#first {
+  background-color: #c9efcf;
+  padding: 10px;
+  margin: 10px;
+}
+
+#second {
+  background-color: #c9efed;
+  margin: 5px;
+  padding: 10px;
+  width: 444px;
+  display: inline-block;
+}
+
+#third {
+  background-color: #c9cbef;
+  margin: 5px;
+  padding: 10px;
+  width: 285px;
+  display: inline-block;
+}
+
+#fourth{
+  background-color: #e8c9ef;
+  margin: 5px;
+  padding: 10px;
+  width: 205px;
+  display: inline-block;
+}
+
+#fifth{
+  background-color: #e8b9bf;
+  margin: 5px;
+  padding: 8px;
+  width: 130px;
+  display: inline-block;
+}
+940
+2x460
+3x300
+4x220
+6x140
