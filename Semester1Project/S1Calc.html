@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title> Equation Calculator </title>
+        <link href = "S1Calc.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1 id="head">Calculator </h1>
+
+        <ul style="list-style-type:none">
+            <li>
+                <span><a style="color: inherit;" href="file:///Users/jackbrewer/Downloads/Semester1Project/S1Main.html">Home / About Page</a></span>
+            </li>
+            <li>
+                <span>
+                    <div class="menu">
+                      <button onclick="myFunction()" class="btn">Equations</button>
+                      <div id="myMenu" class="menu-content">
+                        <a href="file:///Users/jackbrewer/Downloads/Semester1Project/S1About.html">List of Equations</a>
+                        <a href="file:///Users/jackbrewer/Downloads/Semester1Project/S1Calc.html">Equations Calculator</a>
+                      </div>
+                    </div>
+                </span>
+            </li>
+        </ul>
+
+        <br/>
+        <br/>
+
+          <table border="1" cellpadding="5" cellspacing="5" width="600">
+            <tr>
+                <td>First number</td>
+                <td>Second Number</td>
+                <td>Result</td>
+            </tr>
+            <tr>
+                <td><input name="number1" type="text" size=10 id='num1'/></td>
+                <td><input name="number2" type="text" size=10 id='num2'/></td>
+                <td> <input type="text" id='result' readonly ></td>
+            </tr>
+            <tr>
+                <td colspan="3" id="first">
+                    <button onclick="showresult('1')">+</button>
+                    <button onclick="showresult('2')">-</button>
+                    <button onclick="showresult('3')">*</button>
+                    <button onclick="showresult('4')">/</button>
+                    <button onclick="showresult('5')">%</button>
+                </td>
+            </tr>
+          </table>
+
+
+        <script src="S1Calc.js">
+              </script>
+    </body>
+</html>
